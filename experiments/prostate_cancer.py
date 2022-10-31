@@ -66,7 +66,7 @@ def load_seer(random_seed: int = 42) -> tuple:
     df = pd.read_csv(
         os.path.abspath(
             os.path.join(
-                ROOT_DIR, "./data/Prostate Cancer/seer_external_imputed_new.csv"
+                ROOT_DIR, "./Data/Prostate Cancer/seer_external_imputed_new.csv"
             )
         )
     )

@@ -68,7 +68,7 @@ def load_time_series_prostate_cancer(random_seed: int = 42) -> tuple:
         os.path.abspath(
             os.path.join(
                 ROOT_DIR,
-                "./data/Time series Prostate Cancer/temporal.csv",
+                "./Data/Time series Prostate Cancer/temporal.csv",
             )
         )
     )
@@ -77,7 +77,7 @@ def load_time_series_prostate_cancer(random_seed: int = 42) -> tuple:
         os.path.abspath(
             os.path.join(
                 ROOT_DIR,
-                "./data/Time series Prostate Cancer/baseline.csv",
+                "./Data/Time series Prostate Cancer/baseline.csv",
             )
         )
     )

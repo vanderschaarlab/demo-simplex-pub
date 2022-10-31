@@ -61,7 +61,7 @@ def load_breast_cancer_seer(random_seed: int = 42) -> tuple:
         os.path.abspath(
             os.path.join(
                 ROOT_DIR,
-                "./data/Breast Cancer/SEER Breast Cancer Dataset_preprocessed.csv",
+                "./Data/Breast Cancer/SEER Breast Cancer Dataset_preprocessed.csv",
             )
         )
     )
